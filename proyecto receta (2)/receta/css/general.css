@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+padding: 0px;
+
+}
+body {
+    background-image: url("../imagenes/fondo\ cafe.jpg");
+    background-size: cover;
+}
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+nav{
+height: 80%;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.fotoprincipal {
+    display: grid;
+    place-content: center;
+    height: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    color: brown;
+    font-weight: bolder;
+    font-size: 25px;
+    border: 3px rgb(123, 72, 6) solid;
+    width: 200px;
+    height: auto;
+    min-height: 30px;
+    border-radius: 30px;
+    margin: 3px;
+    text-align: center;
+    text-justify: auto;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px -4px rgba(99, 68, 2, 0.66);
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: indianred;
+    width: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+li :hover {
+    background-color: beige;
+    border-radius: 30px;
+    height: auto;
+    min-height: 30px;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: darkorange;
+    text-shadow: 0, 5px;
+    color: brown;
+}
+footer{
+width: 100% ;
+height: 10vh;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+footer>div{
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    align-items: center;
+
+}

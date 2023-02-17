@@ -1,0 +1,39 @@
+section{
+width: 100%;
+height:fit-content ;
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.itemimg{
+width: 40%;
+height: 400px;
+background-image: url(../imagenes/descarga.jfif);
+background-size: cover;
+background-position: center;
+}
+.itemtexto{
+    width: 60%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+
+}
+.itemtexto>p{
+text-align: justify;
+
+}
+main {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

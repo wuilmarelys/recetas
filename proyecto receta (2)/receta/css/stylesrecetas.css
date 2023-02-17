@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+padding: 0px;
+
+}
+main {
+    width: 100%;
+height: auto;
+
+}
+
+section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section>div {
+    width: 300px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.items{
+    height: 250px;
+    border: 5px burlywood solid;
+    border-radius: 15px;
+    box-shadow: 20px 10px 20px;
+    width: 280px;
+}
+.item1{
+background-image: url(https://cdn0.recetasgratis.net/es/posts/1/8/8/hallacas_venezolanas_65881_600.webp);
+background-size: cover;
+background-position: center;
+}
+.item2{
+background-image: url(https://cuk-it.com/wp-content/uploads/2021/12/thumb04-e1638619205382.jpg);
+background-size: cover;
+background-position: center;
+}
+.item3{
+    background-image: url(https://enrilemoine.com/wp-content/uploads/2014/12/IMG_7249.jpg);
+background-size: cover;
+background-position: center;
+}
+.item4{
+    background-image: url(https://www.recetaspanama.com/base/stock/Recipe/198-image/198-image_web.jpg);
+background-size: cover;
+background-position: center;
+}
