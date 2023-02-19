@@ -68,6 +68,7 @@ h1 {
 .contenedor {
 
     display: flex;
+    
 
 }
 
@@ -78,7 +79,7 @@ h1 {
 }
 
 .div2 {
-    margin-left: 30%;
+    margin-left: 50%;
     margin-right: 50px;
     font-size: x-large;
     justify-content: center;
